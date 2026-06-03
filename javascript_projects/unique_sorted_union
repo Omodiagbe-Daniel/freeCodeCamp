@@ -1,0 +1,11 @@
+function uniteUnique (...arrays) {
+  let newArray = [];
+  for (let arr of arrays) {
+    for (let i = 0; i  < arr.length; i++) {
+      newArray.push(arr[i]);
+    }
+  }
+  const arrSet = new Set(newArray);
+  const array = [...arrSet];
+  return array;
+}
