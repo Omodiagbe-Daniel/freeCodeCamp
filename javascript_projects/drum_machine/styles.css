@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#drum-machine {
+    width: 420px;
+    padding: 20px;
+    border: 3px solid black;
+}
+#pad-bank {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+}
+.drum-pad {
+    height: 80px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    border: 2px solid black;
+}
+#display {
+    margin-top: 20px;
+
+    border: 2px solid black;
+
+    height: 60px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
